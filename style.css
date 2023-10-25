@@ -318,6 +318,7 @@ section {
 
 #experience {
   position: relative;
+  height: 100%;
 }
 
 .experience-sub-title {
@@ -331,6 +332,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: auto;
 }
 
 .article-container {
@@ -357,6 +359,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: fit-content;
 }
 
 .color-container {
@@ -368,6 +371,7 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  border: 1px solid rgb(163, 163, 163);
 }
 
 .project-title {
